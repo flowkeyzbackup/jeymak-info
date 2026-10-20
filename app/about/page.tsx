@@ -3,6 +3,7 @@ import CompanyStory from "../components/about/CompanyStory";
 import MissionVision from "../components/about/MissionVision";
 import CoreValues from "../components/about/CoreValues";
 import AboutCTA from "../components/about/AboutCTA"
+import WhyChooseUs from "../components/about/WhyChooseUs";
 
 export default function AboutPage() {
   return (
@@ -11,6 +12,7 @@ export default function AboutPage() {
       <CompanyStory />
       <MissionVision />
       <CoreValues />
+      <WhyChooseUs/>
       <AboutCTA />
     </main>
   );
