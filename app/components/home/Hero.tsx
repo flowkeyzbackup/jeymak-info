@@ -17,7 +17,7 @@ const FEATURES = [
 export default function Hero() {
   return (
     <section className="overflow-hidden bg-[#f8fbf6]">
-      <div className="mx-auto max-w-7xl px-6 pb-20 lg:pt-12 lg:pb-24">
+      <div className="mx-auto max-w-7xl px-6 pt-8 pb-20 lg:pt-12 lg:pb-24">
         <div className="grid items-center gap-20 lg:grid-cols-[1fr_1.1fr]">
           {/* Left */}
 
