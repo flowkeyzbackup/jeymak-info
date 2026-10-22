@@ -1,20 +1,29 @@
+import {
+  ShoppingBasket,
+  MessageCircle,
+  Truck,
+} from "lucide-react";
+
 export const HOW_IT_WORKS = [
   {
     id: "01",
     title: "Browse Products",
     description:
-      "Explore our collection of fresh agricultural products sourced from trusted farms across Nigeria.",
+      "Explore our range of fresh agricultural products and choose what you need.",
+    icon: ShoppingBasket,
   },
   {
     id: "02",
-    title: "Chat on WhatsApp",
+    title: "Order on WhatsApp",
     description:
-      "Send us your order on WhatsApp and our team will confirm availability and pricing.",
+      "Send us your preferred products on WhatsApp. We'll confirm pricing and availability.",
+    icon: MessageCircle,
   },
   {
     id: "03",
-    title: "Receive Delivery",
+    title: "Fast Delivery",
     description:
-      "We prepare your order carefully and deliver it to your preferred location.",
+      "Your order is prepared and delivered safely to your preferred location.",
+    icon: Truck,
   },
 ];
